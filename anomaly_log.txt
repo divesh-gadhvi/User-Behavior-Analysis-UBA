@@ -1,0 +1,24 @@
+WARNING: Anomaly: Transaction performed outside the expected time range
+INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO: [33mPress CTRL+C to quit[0m
+INFO:  * Restarting with stat
+WARNING: Anomaly: Transaction performed outside the expected time range
+WARNING:  * Debugger is active!
+INFO:  * Debugger PIN: 469-823-395
+INFO:  * Detected change in 'C:\\Users\\91986\\OneDrive\\Desktop\\Rutgers\\Courses\\Fall23\\InfoSec\\FinalProject\\scripts\\simulate_activity.py', reloading
+INFO:  * Restarting with stat
+WARNING: Anomaly: Transaction performed outside the expected time range
+WARNING:  * Debugger is active!
+INFO:  * Debugger PIN: 469-823-395
+WARNING: Anomaly: Login time outside the expected range
+INFO: 127.0.0.1 - - [13/Dec/2023 23:45:16] "POST /login?user_id=user3 HTTP/1.1" 200 -
+INFO:  * Detected change in 'C:\\Users\\91986\\OneDrive\\Desktop\\Rutgers\\Courses\\Fall23\\InfoSec\\FinalProject\\scripts\\simulate_activity.py', reloading
+INFO:  * Restarting with stat
+WARNING: Anomaly: Transaction performed outside the expected time range
+WARNING:  * Debugger is active!
+INFO:  * Debugger PIN: 469-823-395
+WARNING: Anomaly: Login time outside the expected range
+INFO: 127.0.0.1 - - [13/Dec/2023 23:45:45] "POST /login?user_id=user3 HTTP/1.1" 200 -
+WARNING: Anomaly: Unauthorized access by user user3
+INFO: 127.0.0.1 - - [13/Dec/2023 23:45:45] "[31m[1mGET /data?user_id=user3&payload=... HTTP/1.1[0m" 403 -
